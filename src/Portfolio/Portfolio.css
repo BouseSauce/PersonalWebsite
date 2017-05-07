@@ -1,0 +1,65 @@
+.portContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.portContainer .itemContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 25vw;
+
+}
+
+.portContainer .item {
+    /*Flex*/
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    /*Text*/
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2vw;
+    color: rgba(255, 255, 255, .8);
+    font-weight: bold;
+    /*Border*/
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    /*Color*/
+    background: black;
+	/*Margin*/
+	margin: 6vw;
+
+}
+
+.portContainer .item:hover {
+    background: white;
+    color: black;
+    border-color: black;
+    transition: all .3s ease;
+}
+
+.portContainer h1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.portContainer h1 {
+    font-size: 2vw;
+    line-height: 1em;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    margin: 5vh;
+    font-family: sans-serif;
+}

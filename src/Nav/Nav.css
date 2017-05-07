@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.contact {}
+
+h1 {
+    color: rgba(255, 255, 255, .8);
+    font-size: 1vw;
+}
+
+.nav h1:hover {
+    color: white;
+}
+
+.logo
+{
+	width: 5vw;
+	height: 5vw;
+}
+
