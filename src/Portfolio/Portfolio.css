@@ -13,6 +13,13 @@
 
 }
 
+.itemContainer .imageSize
+{
+    display: flex;
+    flex: 1;
+    flex-shrink: 1;
+}
+
 .portContainer .item {
     /*Flex*/
     
@@ -28,6 +35,7 @@
     font-size: 1.2vw;
     color: rgba(255, 255, 255, .8);
     font-weight: bold;
+    text-transform: uppercase;
     /*Border*/
     border-style: solid;
     border-width: 2px;

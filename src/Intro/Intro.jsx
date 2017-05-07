@@ -14,10 +14,10 @@ function template() {
 
       	  <div className="buttonContainer">
 
-   			<h1 className="button">Resume</h1>
+   			<a href="#"><h1 className="button">Resume</h1></a>
    		
    		
-   			<h1 className="button">Portfolio</h1>
+   			<a href='#'><h1 className="button">Portfolio</h1></a>
    		 </div>
     </div>
     </div>

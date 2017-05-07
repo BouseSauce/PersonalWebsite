@@ -1,5 +1,6 @@
 import "./Portfolio.css";
 import React from "react";
+import Game from "../images/game.jpg"
 
 function template() {
   return (
@@ -9,7 +10,7 @@ function template() {
       	
       			<p className="item itemOne">Landing Page</p>
             <p className="item itemTwo">Paintball</p>
-      			<p className="item itemThree">Tic Tac Toe</p>
+      			<p className="item itemThree">AI Algorithm</p>
       	</div>
       </div>
     
