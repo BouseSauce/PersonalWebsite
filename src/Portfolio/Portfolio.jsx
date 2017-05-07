@@ -8,9 +8,9 @@ function template() {
       	<h1>My Latest Projects</h1>
       	<div className="itemContainer">
       	
-      			<p className="item itemOne">Landing Page</p>
-            <p className="item itemTwo">Paintball</p>
-      			<p className="item itemThree">AI Algorithm</p>
+      			<a href="#"><p className="item itemOne">Landing Page</p></a>
+           <a href="#"> <p className="item itemTwo">Paintball</p></a>
+      			<a href="#"><p className="item itemThree">MiniMax Algorithm</p></a>
       	</div>
       </div>
     
