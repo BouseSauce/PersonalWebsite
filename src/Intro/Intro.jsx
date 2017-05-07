@@ -5,9 +5,10 @@ import Nav from '../Nav/Nav';
 function template() {
   return (
   	<div class="container">
+
     <div className="intro">
-    	<Nav/>
-    	
+        <Nav/>
+        <div className="introContent">
     	<p className="subText">Resume, Github & Portfolio</p>
       	<p className="heading">Web Developer</p>
 
@@ -17,7 +18,7 @@ function template() {
    		
    		
    			<h1 className="button">Portfolio</h1>
-   		
+   		 </div>
     </div>
     </div>
   

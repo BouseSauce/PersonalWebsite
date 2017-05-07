@@ -6,7 +6,7 @@ import Footer from './Footer/Footer'
 import './index.css';
 
 ReactDOM.render( < div >
-	    < Intro / >
+	    < Intro className="intro" / >
 	    < Portfolio / >
 	    < Footer />
     < /div>,
