@@ -51,3 +51,8 @@ a:hover {
 	 transition: all .5s ease;
 	 transform:scale(1.1);
 }
+
+.footer h1
+{
+    font-size: 2vh;
+}

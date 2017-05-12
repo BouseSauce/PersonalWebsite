@@ -1,25 +1,46 @@
 .nav {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    position: absolute;
     justify-content: space-around;
-    text-transform: uppercase;
+    flex-direction: row;
     align-items: center;
+    width: 100%
 }
 
-.contact {}
+.nav .navFelxContainer {
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
 
-h1 {
+.nav .contact {
+    margin: 2vh;
+    color: white;
+    border-width: 1/5px;
+    border-style: solid;
+    border-color: white;
+    padding: 1.5vh;
+    margin-right: 1vh;
+    margin-left: 1vh;
+}
+
+.nav .contact:hover {
+    background: #EDEEEF;
+    color: black;
+    border-color: #EDEEEF;
+    transition: all .3s ease;
+}
+
+.nav h1 {
     color: rgba(255, 255, 255, .8);
-    font-size: 1vw;
+    font-size: 2vh;
 }
 
 .nav h1:hover {
     color: white;
 }
 
-.logo
-{
-	width: 5vw;
-	height: 5vw;
+.logo {
+    width: 8vw;
+    height: 8vw;
 }
-

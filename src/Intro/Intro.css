@@ -1,17 +1,13 @@
     .intro {
         /*background-size: 100% 100%;*/
         display: flex;
-        flex-wrap: no-wrap;
+        flex-wrap: wrap;
+        justify-content: space-around;
         flex-direction: column;
         text-align: center;
         background: url('../images/intro_background.png') no-repeat;
-        background-size: 100%;
-    }
-    
-    .pageBackGround {}
-    
-    .introContent {
-        margin-top: 10vh;
+        background-size: calc(100vh + 100vw);
+        height: 75vh;
     }
     
     .heading {
@@ -37,17 +33,17 @@
         color: white;
     }
     
-    .buttonContainer {
+    .intro .buttonContainer {
         display: flex;
         flex-direction: row;
         justify-content: center;
         margin-bottom: 7vh;
     }
     
-    .button {
+    .intro .button {
         margin: 2vh;
         color: white;
-        border-width: 2px;
+        border-width: 1/5px;
         border-style: solid;
         border-color: white;
         padding: 1.5vh;
@@ -59,4 +55,9 @@
         color: black;
         background: white;
         transition: .3s ease;
+    }
+    
+    .intro h1 {
+        color: rgba(255, 255, 255, .8);
+        font-size: 2vh;
     }
