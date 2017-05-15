@@ -13,34 +13,35 @@
     flex-direction: row-reverse;
 }
 
-.nav .contact {
-    margin: 2vh;
-    color: white;
-    border-width: 1/5px;
-    border-style: solid;
-    border-color: white;
-    padding: 1.5vh;
-    margin-right: 1vh;
-    margin-left: 1vh;
-}
-
-.nav .contact:hover {
-    background: #EDEEEF;
-    color: black;
-    border-color: #EDEEEF;
-    transition: all .3s ease;
-}
 
 .nav h1 {
     color: rgba(255, 255, 255, .8);
-    font-size: 2vh;
+    font-size: calc( 1vh + 1vw);
 }
 
 .nav h1:hover {
     color: white;
 }
 
-.logo {
+  .nav .button {
+        margin: 2vh;
+        color: white;
+        border-width: 1.5px;
+        border-style: solid;
+        border-color: white;
+        padding: 1.5vh;
+        margin-right: 1vh;
+        margin-left: 1vh;
+    }
+    
+    .nav .button:hover {
+        color: black;
+        background: white;
+        transition: .3s ease;
+    }
+
+
+.nav .logo {
     width: 8vw;
     height: 8vw;
 }

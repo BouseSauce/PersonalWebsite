@@ -43,7 +43,7 @@
     .intro .button {
         margin: 2vh;
         color: white;
-        border-width: 1/5px;
+        border-width: 1.5px;
         border-style: solid;
         border-color: white;
         padding: 1.5vh;
@@ -51,7 +51,7 @@
         margin-left: 1vh;
     }
     
-    .button:hover {
+    .intro .button:hover {
         color: black;
         background: white;
         transition: .3s ease;
