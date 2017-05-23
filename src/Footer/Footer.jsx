@@ -5,13 +5,17 @@ import GithubIcon from "../images/github.png";
 import LinkIcon from '../images/Linkedin.png'
 
 function template() {
+
+
+
+
   return (
   	<div className="container">
   		<div className="pageBackGround">
 		    <div className="footer">
-		      <h1>Home</h1>
-		      <h1>Portfolio</h1>
-		      <h1>About</h1>
+		     	 <a href="#Home"><h1>Home</h1></a>
+		      <a href="#Portfolio"><h1 >Portfolio</h1></a>
+		      <a href="#About"><h1>About</h1></a>
 		      <h1>Resume</h1>
 		      <h1>Contact</h1>
 		    </div>
@@ -22,7 +26,7 @@ function template() {
 		     <div className="imageIcons">
 			    	<a href="https://www.instagram.com/the_drifting_kiwi/?hl=en" target="_blank"><img  src={InstaIcon} /> </a>
 			    	<a href="https://github.com/BouseSauce" target="_blank"><img src={GithubIcon} /></a>
-			    	<a  href="https://www.linkedin.com/in/sam-kennedy-50a19164/" target="_blank" ><img src={LinkIcon} /> </a>
+			    	<a href="https://www.linkedin.com/in/sam-kennedy-50a19164/" target="_blank" ><img src={LinkIcon} /> </a>
 			    </div>
 	    </div>
 	</div>

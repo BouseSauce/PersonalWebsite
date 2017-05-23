@@ -12,6 +12,7 @@
     justify-content: space-around;
     font-family: sans-serif;
     color: #5D5D60;
+    scroll-behavior: smooth;
 }
 
 .container h1:hover {
@@ -56,3 +57,6 @@ a:hover {
 {
     font-size: 2vh;
 }
+
+
+
