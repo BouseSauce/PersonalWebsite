@@ -10,12 +10,12 @@ function template() {
         
         <div className="contentContaier">
         	<div className="contactInfo">
-        	<h1>Hey hey</h1>
-        	<p>asdfasdfasdfasdf</p>
+        		<h1>Hey hey</h1>
+        		<p>asdfasdfasdfasdf</p>
         	</div>
-             <div className="inputForm">
-             	<form>	
-             		<div className="nameContainer">
+	         <div className="inputForm">
+	         	<form>	
+	         		<div className="nameContainer">
 	             		<div className="firstName">
 		             		<p>First Name</p><br/>
 		             		<input type="text" name="firstName"/>	
@@ -24,16 +24,16 @@ function template() {
 		             		<p>Last Name</p>
 		             		<input type="text" name="lastName"/>
 	             		</div>
-             		</div>
-             		<div className="emailContainer">
-             		<p>Email</p>
-             			<input type="text" name="email"/>	
-             		</div>
-             		<div className="submit">
-             				<input type="submit" value="Submit"/>
-             		</div>
-             	</form>
-             </div>             
+	         		</div>
+	         		<div className="emailContainer">
+	         		<p>Email</p>
+	         			<input type="text" name="email"/>	
+	         		</div>
+	         		<div className="submit">
+	         				<input type="submit" value="Submit"/>
+	         		</div>
+	         	</form>
+	         </div>             
         </div>
         </div>
       </div>

@@ -14,9 +14,9 @@ ReactDOM.render( < div >
 	    < Intro className="intro" / >
 	    < Portfolio / >
 	    < About />
-	    < Contact />
+	  
 	    < Footer / >
-	    < Work / >
+	  
     < /div>,
     document.getElementById('root')
 );

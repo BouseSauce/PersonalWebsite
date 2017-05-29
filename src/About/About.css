@@ -8,8 +8,9 @@
 }
 
 .about .faceImage {
-   	width: 10%;
-   	height: 10%;
+   	width: 20%;
+    max-width: 200px;
+    max-height: 20%;
     border-radius: 50%;
     padding: 2px;
     padding: 3%

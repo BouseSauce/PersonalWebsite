@@ -16,12 +16,11 @@ function template() {
 		     	 <a href="#Home"><h1>Home</h1></a>
 		      <a href="#Portfolio"><h1 >Portfolio</h1></a>
 		      <a href="#About"><h1>About</h1></a>
-		      <h1>Resume</h1>
-		      <h1>Contact</h1>
+		      <a href="https://www.dropbox.com/s/81yyq3xqimgyfqs/Samuel%20Kennedy%20CV.pdf?dl=0"><h1>Resume</h1></a>
+		    
 		    </div>
 		    <div className="callText">
-		    	<p>For more information call <a href="tel:0279503185"> 027-950-3185</a></p>
-			   
+		    	<p><a href="mailto:sam.kennedy02@gmail.com">Sam.kennedy02@gmail.com</a></p>
 		    </div>
 		     <div className="imageIcons">
 			    	<a href="https://www.instagram.com/the_drifting_kiwi/?hl=en" target="_blank"><img  src={InstaIcon} /> </a>

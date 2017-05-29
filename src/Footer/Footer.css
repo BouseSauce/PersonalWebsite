@@ -1,3 +1,6 @@
+@import url("../globalVariables.css");  
+
+
 .container {
     background: #262626;
     display: flex;
@@ -19,11 +22,11 @@
     color: white;
 }
 
-.callText {
-    display: flex;
-    justify-content: space-around;
+.callText p {
+
     color: #5D5D60;
-    font-size: 1.5vw;
+    font-size: var(--navItems);
+    text-align: center;
 }
 
 .imageIcons {
@@ -34,8 +37,8 @@
 }
 
 .imageIcons img {
-    width: 3vw;
-    height: 3vw;
+    width: 40px;
+    height: 40px;
 }
 
 a {
@@ -55,7 +58,7 @@ a:hover {
 
 .footer h1
 {
-    font-size: 2vh;
+    font-size: var(--navItems);
 }
 
 

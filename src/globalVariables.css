@@ -3,7 +3,7 @@
 	--mainHeading: 34px;
 	--componentTitle: 26px;
 	--secondHeading: 18px;
-	--navItems : 24px;
+	--navItems : calc(5vh+5vw);
 	--footerItems : 16px;
 	--paraText : 16px;
 };
